@@ -18,6 +18,39 @@ header #header_in {
     width: 40px;
     float: right;
   }
+  #sub_cover h2{
+    text-align:center;
+    font-size:1.6rem;
+    font-weight:bold;
+    margin:0;
+    letter-spacing:0.2rem;
+    color:white;
+  }
+  #contents{
+    padding-top:20px;
+  }
+  #contents #main h2{
+    font-size:1.5rem;
+    padding-bottom:15px;
+  }
+  #contents #main .news_li{
+    font-size:1.5rem;
+  }
+  #contents #main .news_li li{
+    list-style:none;
+  }
+  #contents #main .news_li li span{
+    display:block;
+    margin-bottom:3px;
+  }
+  #sidebar .pc_sidemenu{
+    display:none;
+  }
+  #contents #main th, #contents #main td{
+    padding:20px 0;
+    color:#626262;
+    font-size:1.4rem;
+  }
 }
 header .sp_navi_li {
   width: 180px;
@@ -229,6 +262,7 @@ header .sp_navi_li li a {
 
 #sub_cover{
   background-size:cover;
+  padding:40px 0;
 }
 
 #service_area {
@@ -270,6 +304,10 @@ header .sp_navi_li li a {
 @media (min-width: 550px) {
   #news_area .container {
     padding: 0px 10% 50px 10%;
+  }
+  #contents{
+    padding-top:35px;
+    padding-bottom:70px;
   }
 }
 #news_area .news_title {
@@ -400,6 +438,11 @@ footer .copy {
   }
   footer .copy {
     margin-top: 30px;
+  }
+}
+@media (max-width:550px){
+  footer .container{
+    padding:0;
   }
 }
 
