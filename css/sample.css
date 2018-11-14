@@ -265,10 +265,10 @@ header .sp_navi_li li a {
 
 #sub_cover{
   background-size:cover;
-  /*padding:40px 0;*/
+  background-imgae:url(../images/news/@1xsub_cover@2x.jpg)
 }
 #contents #main h2.company_title{
-  margin-bottom:0;
+  margin-bottom:0px;
 }
 #service_area {
   padding-top: 20px;
@@ -309,6 +309,7 @@ header .sp_navi_li li a {
     font-size: 1.3rem;
   }
 }
+
 
 #news_area {
   background-color: #eaf2f4;
