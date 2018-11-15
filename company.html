@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!--<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">-->
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -29,7 +29,14 @@
 
 </head>
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <header>
@@ -151,8 +158,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="fb-page fb_iframe_widget fb_iframe_widget_fluid" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=181&amp;height=300&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&amp;locale=ja_JP&amp;sdk=joey&amp;show_facepile=false&amp;small_header=false&amp;tabs=timeline"><span style="vertical-align: bottom; width: 181px; height: 300px;"><iframe name="f22a4c208c4efec" width="1000px" height="300px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F__Bz3h5RzMx.js%3Fversion%3D42%23cb%3Df3c03e8b15da2a8%26domain%3Ddemo.techacademy.jp%26origin%3Dhttp%253A%252F%252Fdemo.techacademy.jp%252Ff3633d0158c5c48%26relation%3Dparent.parent&amp;container_width=181&amp;height=300&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&amp;locale=ja_JP&amp;sdk=joey&amp;show_facepile=false&amp;small_header=false&amp;tabs=timeline" style="border: none; visibility: visible; width: 181px; height: 300px;" class=""></iframe></span></div>
-            </div>
+                <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+                </div>
         </div>
     </div>
 </div>
@@ -191,6 +198,24 @@
     <!-- row -->
   </div>
 </footer>
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+  $(function(){
+
+    $(document).ready(function(){
+
+      $("#sp_navi_btn").click(function () {
+        $(this).next().slideToggle();
+      });
+
+    });
+
+  });
+</script>
+
 <!-- //footer -->
 </body>
 </html>

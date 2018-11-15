@@ -198,7 +198,7 @@ header .sp_navi_li li a {
   }
   #contents{
     padding-top:35px;
-    padding:70px;
+    /*padding:70px;*/
   }
   #contents #main{
     padding-right:20px;
@@ -245,13 +245,15 @@ header .sp_navi_li li a {
   padding:10px 10px 10px 20px;
   background-size:4px 8px;
 }
-#contents #main th{
-  padding-right:20px;
-}
+
 #contents #main th, #contents #main th{
   padding:20px 0;
   color:#626262;
   font-size:1.4rem;
+}
+
+#contents #main th{
+  padding-right:20px;
 }
 
 #contents #main h2{
@@ -457,6 +459,11 @@ footer .copy {
   footer .container{
     padding:0;
   }
+  #sub_cover{
+  background-size:cover;
+  padding:40px 0;
+  background-imgae:url(../images/news/sub_cover@2x.jpg);
+}
 }
 
 h1 {
