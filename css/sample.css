@@ -48,10 +48,16 @@ header #header_in {
   }
   #contents #main th, #contents #main td{
     padding:20px 0;
-    color:#626262;
+    color:#626262;;
     font-size:1.4rem;
   }
 }
+
+#contents #main th, #contents #main td{
+    padding:20px 0;
+    color:#626262;;
+    font-size:1.4rem;
+  }
 header .sp_navi_li {
   width: 180px;
   position: absolute;
